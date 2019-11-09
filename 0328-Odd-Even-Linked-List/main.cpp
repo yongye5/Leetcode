@@ -11,7 +11,7 @@ struct ListNode{
     int val;
     ListNode *next;
     ListNode(int x):val(x), next(NULL){}
-};
+}; 
 ListNode* createLinkedList(int arr[], int n){
     if(n == 0){
         return NULL;
