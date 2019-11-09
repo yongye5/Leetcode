@@ -16,7 +16,7 @@ public:
                 continue;
             }else{
                 nums[slow] = nums[i];
-                slow ++;
+                slow ++; 
             }
         }
         for(int i = slow; i < nums.size(); i ++){
