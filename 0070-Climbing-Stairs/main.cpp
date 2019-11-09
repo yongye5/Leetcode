@@ -26,7 +26,7 @@ public:
         for(int i = 0; i < vec.size(); i++){
             cout << vec[i] << " ";
         }
-    }
+    } 
 };
 // 运用记忆化搜索的方法
 int main(){
